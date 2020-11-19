@@ -1,11 +1,11 @@
 public class Filme implements Video 
 {
-    int duracao;
-    String nome;
-    int anoLancamento;
-    String idiomaAudio;
-    String idiomaLegenda;
-    boolean estaPausado;
+    private int duracao;
+    private String nome;
+    private int anoLancamento;
+    private String idiomaAudio;
+    private String idiomaLegenda;
+    private boolean estaPausado;
 
     public Filme(String nome, int duracao, int anoLancamento)
     {
