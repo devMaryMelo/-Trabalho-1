@@ -1,12 +1,11 @@
 public class Serie implements Video 
 {
-    int duracao;
-    String nome;
-    int temporadas;
-    int episodios;
-    String idiomaAudio;
-    String idiomaLegenda;
-    boolean estaPausado;
+    private String nome;
+    private int temporadas;
+    private int episodios;
+    private String idiomaAudio;
+    private String idiomaLegenda;
+    private boolean estaPausado;
 
     public Serie(String nome, int temporadas, int episodios)
     {
